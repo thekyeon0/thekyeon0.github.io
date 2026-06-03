@@ -1,0 +1,24 @@
+<div class="project-card">
+  <div class="project-card-header">
+    <h3>{{ include.project.title }}</h3>
+    {% if include.project.status %}
+    <span class="status status--{{ include.project.status }}">{{ include.project.status }}</span>
+    {% endif %}
+  </div>
+  <p>{{ include.project.description }}</p>
+  {% if include.project.tags %}
+  <div class="tags">
+    {% for tag in include.project.tags %}
+    <span class="tag">{{ tag }}</span>
+    {% endfor %}
+  </div>
+  {% endif %}
+  <div class="project-links">
+    {% if include.project.github %}
+    <a href="{{ include.project.github }}" target="_blank" class="btn btn--github">GitHub →</a>
+    {% endif %}
+    {% if include.project.demo %}
+    <a href="{{ include.project.demo }}" target="_blank" class="btn btn--demo">데모 →</a>
+    {% endif %}
+  </div>
+</div>

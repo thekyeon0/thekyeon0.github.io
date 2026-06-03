@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<div class="projects-page">
+  <h1>프로젝트</h1>
+  <p class="page-desc">진행한 프로젝트들을 정리했습니다.</p>
+  <div class="projects-grid">
+    {% assign sorted_projects = site.projects | sort: "date" | reverse %}
+    {% for project in sorted_projects %}
+      {% include project-card.html project=project %}
+    {% endfor %}
+  </div>
+</div>
