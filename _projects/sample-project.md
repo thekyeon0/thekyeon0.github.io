@@ -5,5 +5,5 @@ github: "https://github.com/thekyeon0/project-name"
 demo: ""
 tags: [Python, 자동화]
 status: "완료"
-date: 2024-01-01
+date: 2026-06-04
 ---
