@@ -1,9 +1,9 @@
 ---
-title: "프로젝트 이름"
-description: "프로젝트 한 줄 설명"
-github: "[https://github.com/thekyeon0/project-name](https://github.com/thekyeon0/thekyeon0.github.io.git)"
+title: "Github Blog"
+description: "Create and operate My Github Blog"
+github: "https://github.com/thekyeon0/thekyeon0.github.io/"
 demo: ""
-tags: [Python, 자동화]
+tags: [Blog, github, Ai, LLM, Bisiness]
 status: "완료"
 date: 2026-06-04
 ---
